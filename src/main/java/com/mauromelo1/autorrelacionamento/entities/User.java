@@ -53,4 +53,12 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	public Set<User> getFollowing() {
+		return following;
+	}
+
+	public Set<User> getFollowers() {
+		return followers;
+	}	
 }
